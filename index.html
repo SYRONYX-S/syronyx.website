@@ -18,7 +18,7 @@
   <!-- Meta Description -->
   <meta name="google-site-verification" content="0iKd-bUNbGBZQjlVpAXgcwr10nC-CogM16_OjW5klMc" />
   <meta content="
-    We offer modern solutions for growing your business.
+    If you can think about it, we can develop it.
     We are a team of talented devolopers making your dream space.
     We consist of Flutter Devolopers, Front-end Devolopers, UI UX Designers, Back-end Devolopers.
     " name="description" />
@@ -30,29 +30,29 @@
   <meta name="author" content="SYRONYX">
   <!-- Meta OpenGraph -->
   <meta property="og:title" content="Syronyx Web and App Solutions" />
-  <meta property="og:description" content="We offer modern solutions for growing your business.
+  <meta property="og:description" content="If you can think about it, We can develop it.
       We are a team of talented devolopers making your dream space.
       We consist of MERN Stack Devolopers, Front-end Devolopers, UI
       UX Designers, Back-end Devolopers." />
-  <meta property="og:image" content="https://syronyx.com/assets/img/og_imgae.png" />
+  <meta property="og:image" content="https://syronyx.com/assets/img/og_imgae.jpg" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:url" content="https://syronyx.com" />
   <!-- Meta twitter -->
   <meta property="twitter:title" content="Syronyx Web and App Solutions" />
-  <meta property="twitter:description" content="We offer modern solutions for growing your business.
+  <meta property="twitter:description" content="If you can think about it, We can develop it.
       We are team of talented devolopers making your dream space.
       We consist of MERN Stack Devolopers, Front-end Devolopers, UI
       UX Designers, Back-end Devolopers." />
-  <meta property="twitter:image" content="https://syronyx.com/assets/img/og_imgae.png" />
+  <meta property="twitter:image" content="https://syronyx.com/assets/img/og_imgae.jpg" />
   <meta property="twitter:image:type" content="image/png" />
   <meta property="twitter:image:width" content="1200" />
   <meta property="twitter:image:height" content="630" />
   <meta property="twitter:url" content="https://Syronyx.com" />
   <!-- Favicons -->
-  <link href="assets/img/favicon.svg" rel="shortcut icon" type="image/x-icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="assets/img/favicon.png" rel="shortcut icon" type="image/x-icon" />
+  <link href="assets/img/favicon.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
   <link
@@ -112,12 +112,24 @@
             <a class="getstarted scrollto" href="#about">Get Started</a>
           </li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <!-- <i class="ri-moon-fill" id="icon"></i> -->
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+          <i class="ri-moon-fill" title="Toggle light mode"></i>
+          <i class="ri-sun-line" title="Toggle dark mode"></i>
+          <div class="ball" title="Toggle dark / light mode"></div>
+        </label>
+        <i class="mobile-nav-toggle"></i>
       </nav>
       <!--.navbar -->
+
+      
     </div>
   </header>
   <!-- End Header -->
+
+  <!-- Sidebar-->
+  <!-- End Sidebar-->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -125,7 +137,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>We offer modern solutions for growing your business</h1>
+          <h1>If you can think about it, We can develop it.</h1>
           <h2>We are a team of talented developers making your dream space.</h2>
           <div class="d-flex">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
@@ -163,7 +175,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="https://uploads-ssl.webflow.com/615af81f65d1ab72d2969269/616e9ee156cfd2703bb17823_6e855666-1764-4019-be9e-998505bd3fdf-removebg-preview.png" class="img-fluid"
+            <img src="assets/img/about-1.png" class="img-fluid"
               alt="" />
           </div>
         </div>
@@ -283,55 +295,45 @@
           <p>We provide best features for our clients</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/features.png" class="img-fluid" alt="Syronyx" />
-          </div>
-
-          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-            <div class="row align-self-center gy-4">
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Responsive Design</h3>
+        <div class="row no-gutters">
+          <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row icon-animation">
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-device-line"></i>
+                  <h4>Responsive Design</h4>
+                  <p>Creates websites that adapts and transforms to fit your screen size, regardless of the device your using .</p>
                 </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Interactive UI</h3>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-paint-brush-line"></i>
+                  <h4>Interactive UI</h4>
+                  <p>Websites and apps made with stunning colors and attractive designs. .</p>
                 </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>User Friendly Design</h3>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-user-heart-line"></i>
+                  <h4>User Friendly Design</h4>
+                  <p>Design is simple, clean, intuitive, and reliable from home screen to the payment form .</p>
                 </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Search Friendly Sites</h3>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-search-eye-line"></i>
+                  <h4>Search Friendly Sites</h4>
+                  <p>Improved quality and quantity of website traffic to a website or a web page from search engines .</p>
                 </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Hosting</h3>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-cloud-line"></i>
+                  <h4>Hosting</h4>
+                  <p>Faster, reliable cloud hosting in AWS, Digital Ocean, AZURE, GCP etc. Thereby increasing efficiency, offers great performance .</p>
                 </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Awesome Support</h3>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-customer-service-2-line"></i>
+                  <h4>Awesome Support</h4>
+                  <p>Whether it's a compliment or an issue that needs resolving, we're always ready to talk</p>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/features.png" class="img-fluid" alt="">
           </div>
         </div>
         <!-- / row -->
@@ -347,104 +349,134 @@
           <p>Check Our Services</p>
         </div>
 
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <i class="ri-window-line icon"></i>
-              <h3>Web Design</h3>
-              <p>
-                Web Designing in HTML & CSS or React Js. You will get
-                responsive, interactive & unique designs.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="ri-window-line icon"></i>
+              </div>
+              <h4>Web Design</a></h4>
+              <p>Web Designing in HTML & CSS or React Js. You will get
+                responsive, interactive & unique designs.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
-              <i class="ri-stack-fill icon"></i>
-              <h3>Web Development</h3>
-              <p>
-                Web Development in Node Js. Features Filled Development. We
-                Build Back-end Sites like E-commerce, Online Bookings, Online
-                Class, Online Streaming etc.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="ri-cloud-line icon"></i>
+              </div>
+              <h4>Web Hosting</a></h4>
+              <p>Web Hosting in AWS, Digital Ocean, AZURE, GCP etc. as per your wish.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box green">
-              <i class="ri-search-eye-line icon"></i>
-              <h3>SEO</h3>
-              <p>
-                We make sites that are search engine friendly & make your
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="ri-tools-fill icon"></i>
+              </div>
+              <h4>Website Maintenance</a></h4>
+              <p>Website Maintenance with low cost. You can extend as your wish</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="ri-stack-fill icon"></i>
+              </div>
+              <h4>Web Development</a></h4>
+              <p>Web Development in Node Js. Features Filled Development. We
+                Build Back-end Sites like Ecommerce, Online Bookings, Online
+                Class, Online Streaming etc.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="ri-search-eye-line icon"></i>
+              </div>
+              <h4>SEO</a></h4>
+              <p>We make sites that are search engine friendly & make your
                 business to everyone. You can find your site through google
-                search.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+                search.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box red">
-              <i class="ri-tools-fill icon"></i>
-              <h3>Website Maintenance</h3>
-              <p>
-                Website Maintenance with low cost. You can extend as your wish
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box purple">
-              <i class="ri-cloud-line icon"></i>
-              <h3>Web Hosting</h3>
-              <p>
-                Web Hosting in AWS, Digital Ocean, AZURE, GCP etc. as per
-                your wish.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box pink">
-              <i class="ri-smartphone-line icon"></i>
-              <h3>App Development</h3>
-              <p>
-                Mobile App development  in Flutter . Flutter builds both iOS & Android apps with a single code processing. A startup owner’s favorite technology, Flutter, is backed by Google.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="ri-smartphone-line icon"></i>
+              </div>
+              <h4>App Development</a></h4>
+              <p>Mobile App development in Flutter . Flutter builds both iOS & Android apps with a single code processing. A startup owner’s favorite technology, Flutter, is backed by Google.</p>
             </div>
           </div>
           
-          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box grey">
-              <i class="ri-chat-smile-3-line icon"></i>
-              <h3>Chat Bot Development</h3>
-              <p>
-                Chat Bot development for WhatsApp, Telegram, Discord, etc. at reasonable price.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-maroon">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="ri-quill-pen-line  icon"></i>
+              </div>
+              <h4>Graphic Designing</a></h4>
+              <p>We make unique and good looking posters and videos for your needs. </p>
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box maroon">
-              <i class="ri-quill-pen-line  icon"></i>
-              <h3>Graphic Designing</h3>
-              <p>
-                We make unique and good looking posters and videos for your needs. 
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-grey">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="ri-chat-smile-3-line icon"></i>
+              </div>
+              <h4>Chat Bot Development</a></h4>
+              <p>Chat Bot development for WhatsApp, Telegram, Discord, etc at reasonable price.</p>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-brown">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="ri-palette-line  icon"></i>
+              </div>
+              <h4>Logo Designing</a></h4>
+              <p>Creative, elite and detail-oriented Logo designing with all the latest tools, we provide stunning logo designs .</p>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </section>
-    <!-- End Services Section -->
+    </section><!-- End Services Section -->
 
     <!-- ======= Pricing Section ======= -->
     <!-- <section id="pricing" class="pricing">
@@ -566,8 +598,7 @@
               <h4>Sarhan Qadir</h4>
               <span>Flutter Developer</span>
               <p>
-                He's a Flutter Developer. He's done some projects in Node and Flutter, still doing
-                projects in Flutter, Node and working for Syronyx.
+                 Will provide you with consistent performance from designing the application, planning a timeline, and developing any complicated application within a short time.
               </p>
               <div class="social">
                 <a href="https://twitter.com/SQADIRKVM" target="_blank" title="Twitter"><i
@@ -586,8 +617,7 @@
               <h4>Fahim Jifri</h4>
               <span>Web Developer</span>
               <p>
-                He's a Frontend Web Developer. He's done projects in Node and Python, still doing
-                projects in Python and working for Syronyx.
+                Ensures that sites meet user expectations by ensuring they look good, run smoothly and offer easy access points with no loading issues between pages or error messages.
               </p>
               <div class="social">
                 <a href="https://twitter.com/Zyedjifri" target="_blank" title="Twitter"><i
@@ -608,8 +638,7 @@
               <h4>Mohammed Sahal</h4>
               <span>UI/UX Designer</span>
               <p>
-                He's a Web Developer, UI/UX Designer. He's done some projects in Python, Java. He's still doing some projects
-                in Python and working for Syronyx.
+                Creates satisfying and compelling experiences for users of a product, often drawing on results from workflow analysis. applies interactive and visual design principles on websites.
               </p>
               <div class="social">
                 <a href="https://twitter.com/sahalayamon" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
@@ -625,10 +654,9 @@
             <div class="member">
               <img src="assets/img/team/hashim.jpg" alt="Hashim Shafeeque">
               <h4>Hashim Shafeeque</h4>
-              <span>Backend Web Developer</span>
+              <span>Backend Developer</span>
               <p>
-                He's a Backend Web Developer. He's done some projects in Flutter and Python, still doing projects
-                in Python, Flutter and working for Syronyx.
+                Creates components and features on the server-side, indirectly accessed by a user through a front end application or system. Tasked with creating, maintaining, testing, and debugging.
               </p>
               <div class="social">
                 <a href="https://twitter.com/HashimShafeeque" target="_blank" title="Twitter"><i
@@ -1220,6 +1248,8 @@
                 rel="noopener noreferrer" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/syronyx/" class="instagram" target="_blank" title="Instagram"
                 rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/syronyx?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPv1jOWGaTYea0bUlOs%2BouA%3D%3D" class="linkedin" target="_blank" title="Linkedin"
+              rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
