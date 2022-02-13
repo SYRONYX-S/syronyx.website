@@ -1,9 +1,4 @@
-/**
-* Template Name: FlexStart - v1.0.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -40,6 +35,30 @@
   /**
    * Scrolls to an element with header offset
    */
+  const checkbox=
+  document.getElementById('checkbox');
+  if(localStorage.getItem("theme") == null){
+    localStorage.setItem("theme", "light");
+  }
+  
+  let localData = localStorage.getItem("theme");
+  if(localData == "light"){
+    document.body.classList.remove('dark')
+  }
+  else if(localData == 'dark'){
+    document.body.classList.add('dark')
+  }
+  checkbox.addEventListener('change', ()=> {
+    //change the theme of the website
+    document.body.classList.toggle('dark');
+    if(document.body.classList.contains('dark')){
+      localStorage.setItem("theme", 'dark');
+    }
+    else {
+      localStorage.setItem("theme", "light");
+    }
+  });
+
   const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
